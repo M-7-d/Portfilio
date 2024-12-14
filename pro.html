@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Al Haddad - Full Stack & Mobile Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <header>
+            <div class="logo">M7D</div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">footer</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="content">
+                <span class="greeting">Hello, I'm</span>
+                <h1>Muhammed Al Haddad</h1>
+                <h2>Full Stack & Mobile Developer</h2>
+                <p>A Computer Engineering Student blending technical expertise with interpersonal skills. Passionate
+                    about creating innovative web and mobile solutions using technologies like React, Flutter, and
+                    Firebase. Committed to developing seamless, user-centric applications that solve real-world
+                    problems.</p>
+
+                <div class="hero-actions">
+                    <div class="social-icons">
+                        <a href="https://github.com/M-7-d" target="_blank" aria-label="GitHub Profile"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammed-al-haddad-472913277/" target="_blank"
+                            aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/m.haddad.7" target="_blank" aria-label="Instagram Profile"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <button class="cta-button" onclick="downloadCV()">
+                        <i class="fas fa-download"></i> Download CV
+                    </button>
+
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="1.jpg" alt="Muhammed Al Haddad Profile Picture">
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>Professional Skills</h2>
+            <br>
+            <div class="skill-categories">
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Mobile Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Additional Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>HRMS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="2.png" alt="Dental Clinic Booking System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dental Clinic Appointment System</h3>
+                        <p>A comprehensive web application for efficient dental clinic appointment management, featuring
+                            user-friendly interfaces for patients and administrators.</p>
+                        <div class="project-technologies">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <a href="https://github.com/M-7-d/E-Commerece-App/tree/master/En_ecommerce" target="_blank"
+                            class="project-button">
+                            View Project <i class="fas fa-external-link-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="3.png" alt="Flutter eCommerce App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Flutter eCommerce App</h3>
+                        <p>Cross-platform mobile application with Firebase integration, offering multi-authentication,
+                            dynamic layouts, and smooth user experience across Android and iOS.</p>
+                        <div class="project-technologies">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>GetX</span>
+                        </div>
+                        <a href="https://github.com/M-7-d/E-Commerece-App/tree/master/En_ecommerce" target="_blank"
+                            class="project-button">
+                            View Project <i class="fas fa-external-link-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer" class="footer">
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>Contact Me</h4>
+                        <div class="footer-contact-info">
+                            <a href="mailto:muhammedalhaddad@gmail.com">
+                                <i class="fas fa-envelope"></i> muhammadalhaddad14@gmail.com
+                            </a>
+                            <a href="tel:+972599909440">
+                                <i class="fas fa-phone"></i> +90 534 684 67 50
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Location</h4>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Gaziantep, Turkey
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-social-icons">
+                    <a href="https://github.com/M-7-d" target="_blank" aria-label="GitHub Profile"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammed-al-haddad-472913277/" target="_blank"
+                        aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/m.haddad.7" target="_blank" aria-label="Instagram Profile"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+                <div class="footer-bottom">
+                    © 2024 Muhammed Al Haddad. All Rights Reserved.
+                </div>
+            </footer>
+        </section>
+    </div>
+
+    <script>
+        function downloadCV() {
+            const link = document.createElement('a');
+            link.target = "_blank"
+            link.href = 'my_Cv.pdf';
+            link.download = 'Muhammed_Al_Haddad_CV.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Mobile Navigation Toggle
+        document.querySelector('.nav-toggle').addEventListener('click', function () {
+            document.getElementById('navbar').classList.toggle('active');
+        }); document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            const sections = document.querySelectorAll('section');
+            const navbar = document.getElementById('navbar');
+            const navToggle = document.querySelector('.nav-toggle');
+
+            // Smooth Scroll Animation
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+
+                    // Scroll with smooth behavior
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+
+                    // Close mobile menu if open
+                    navbar.classList.remove('active');
+                });
+            });
+
+            // Intersection Observer for Active Navigation
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.5
+            };
+
+            const observerCallback = (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Remove active from all links
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                        });
+
+                        // Add active to corresponding link
+                        const activeLink = document.querySelector(`nav a[href="#${entry.target.id}"]`);
+                        if (activeLink) {
+                            activeLink.classList.add('active');
+                        }
+                    }
+                });
+            };
+
+            const sectionsObserver = new IntersectionObserver(observerCallback, observerOptions);
+            sections.forEach(section => sectionsObserver.observe(section));
+
+            // Mobile Navigation Toggle
+            navToggle.addEventListener('click', () => {
+                navbar.classList.toggle('active');
+                navToggle.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
